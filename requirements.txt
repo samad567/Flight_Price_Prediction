@@ -19,5 +19,3 @@ six==1.15.0
 virtualenv==20.4.2
 werkzeug==2.0.1
 Wincertstore==0.2
-pickle==4.0
-seaborn==0.11.1
