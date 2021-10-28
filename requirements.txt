@@ -16,6 +16,6 @@ pytz==2019.3
 scikit-learn==0.24.2
 scipy==1.7.0
 six==1.15.0
-virtualenv==20.4.2
+virtualenv==20.0.7
 werkzeug==2.0.1
 Wincertstore==0.2
