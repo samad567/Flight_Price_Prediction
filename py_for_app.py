@@ -5,14 +5,14 @@ import pickle
 import pandas as pd
 
 app = Flask(__name__)
-model = pickle.load(open("C:/Users/Abdul Samad/flight_price_pred.pkl", "rb"))
+model = pickle.load(open("flight_price_pred.pkl", "rb"))
 
 
 
 @app.route("/")
 @cross_origin()
 def home():
-    return render_template("C:/Users/Abdul Samad/Desktop/home.html")
+    return render_template("home.html")
 
 
 
