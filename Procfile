@@ -1,1 +1,1 @@
-web: gunicorn flight_pred_app:app
+web: gunicorn app:flight_pred_app

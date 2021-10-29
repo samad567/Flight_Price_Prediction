@@ -4,7 +4,7 @@ import sklearn
 import pickle
 import pandas as pd
 
-app = Flask(__name__)
+flight_pred_app= Flask(__name__)
 model = pickle.load(open("flight_price_pred.pkl", "rb"))
 
 
