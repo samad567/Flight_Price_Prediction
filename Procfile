@@ -1,1 +1,0 @@
-web: gunicorn app:py_for_app
