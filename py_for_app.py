@@ -365,4 +365,4 @@ def predict():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    py_for_app.run(debug=True)
