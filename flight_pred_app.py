@@ -365,5 +365,5 @@ def predict():
 
 
 if __name__ == "__main__":
-    app.debug = True
-    app.run()
+    flight_pred_app.debug = True
+    flight_pred_app.run()
